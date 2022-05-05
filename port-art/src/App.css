@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Fira+Sans&family=Great+Vibes&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,400;1,100&family=Roboto:ital,wght@0,400;0,500;0,900;1,100&family=Saira:wght@200;400;600;700&family=Sora:wght@100;400;700;800&display=swap');
+
+.App{
+width: auto;
+background-color: #111;
+height: 100vh;
+}
+.box{
+  width: 1280px;
+height: 100%;
+
+display: flex;
+justify-content: center;
+background-image: url('assets/bola2.svg');
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.box2{
+  width: 1280px;
+height: 100%;
+
+display: flex;
+justify-content: center;
+background-image: url('assets/bola.svg');
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.boxImage{
+  position: relative;
+width: 1280px;
+height: 100%;
+display: flex;
+justify-content: center;
+background-image: url('assets/hm.svg');
+background-repeat: no-repeat;
+background-position: bottom;
+z-index: 250;
+background-size: auto;
+}
+
+
+
+.redes{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  z-index: 100;
+  
+}
+
+.redes a {
+  color: white;
+}
+
+.redes a:nth-child(1){
+  color: red;
+}
+.redes a:nth-child(3){
+  color: red;
+}
+
+.infos{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.infos h2{
+  width: 60%;
+  margin-left: 20px;
+  font-family: 'saira';
+  color: white;
+}
+
+.infos span{
+  color: red;
+}
+
+.menu{
+  position: absolute;
+  right: 0;
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.menu nav {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+.menu ul li {
+  transform: rotate(90deg);
+  margin-top: 100px;
+  list-style: none;
+}
+
+.menu li a {
+  font-family: 'saira';
+  text-decoration: none;
+  font-size: 22px;
+  transition: 0.2s ease-in;
+  color: white;
+}
+
+.menu li a:hover{
+  color: red;
+}
